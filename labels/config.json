@@ -1,50 +1,99 @@
 [
     {
         "name":"todo",
-		"description":"待开发",
+		"description":"代办",
         "color":"#2876B8",
         "priority":1,
         "board":true
     },
     {
         "name":"doing",
-		"description":"开发中",
+		"description":"正在进行中",
         "color":"#fbca04",
         "priority":1,
         "board":true
     },
     {
         "name":"done",
-		"description":"开发完成",
+		"description":"已完成",
         "color":"#447708",
         "priority":1,
         "board":true
     },
     {
         "name":"tbd",
-		"description":"将要开发完成",
+		"description":"待定 To Be Determined",
         "color":"#fa8072",
         "priority":1
     },
+	{
+        "name":"code issue",
+		"description":"代码开发类工作",
+        "color":"#004E00",
+        "priority":2
+    },
+	{
+        "name":"documentation issue",
+		"description":"文档类工作",
+        "color":"#004E00",
+        "priority":2
+    },
+	{
+        "name":"design issue",
+		"description":"设计类工作",
+        "color":"#004E00",
+        "priority":2
+    },
+	{
+        "name":"research issue",
+		"description":"预研类工作",
+        "color":"#004E00",
+        "priority":2
+    },
+	{
+        "name":"test issue",
+		"description":"测试类工作",
+        "color":"#004E00",
+        "priority":2
+    },
+	{
+        "name":"in coding",
+		"description":"开发中",
+        "color":"#44AD8E",
+		"priority":3
+    },
     {
-        "name":"discussion",
+        "name":"in testing",
+		"description":"测试中",
+        "color":"#44AD8E",
+		"priority":3
+    },
+    {
+        "name":"in designing",
+		"description":"设计中",
+        "color":"#44AD8E",
+		"priority":3
+    },
+    {
+        "name":"in code reviewing",
+		"description":"代码走查中",
+        "color":"#44AD8E",
+		"priority":3
+    },
+    {
+        "name":"need discussion",
 		"description":"需要讨论",
         "color":"#cc317c"
     },
     {
         "name":"need info",
-		"description":"需要补充信息",
+		"description":"需要补充问题描述信息",
         "color":"#cc317c"
     },
     {
         "name":"help wanted",
 		"description":"需要帮助",
         "color":"#cc317c"
-    },
-    {
-        "name":"testing",
-		"description":"测试中",
-        "color":"#44AD8E"
     },
     {
         "name":"duplicate",
@@ -73,7 +122,7 @@
     },
     {
         "name":"feature",
-		"description":"需求功能",
+		"description":"新需求",
         "color":"#91ca55"
     },
     {
