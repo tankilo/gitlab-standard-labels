@@ -1,85 +1,104 @@
 [
     {
         "name":"todo",
+		"description":"待开发",
         "color":"#2876B8",
         "priority":1,
         "board":true
     },
     {
         "name":"doing",
+		"description":"开发中",
         "color":"#fbca04",
         "priority":1,
         "board":true
     },
     {
         "name":"done",
+		"description":"开发完成",
         "color":"#447708",
         "priority":1,
         "board":true
     },
     {
         "name":"tbd",
+		"description":"将要开发完成",
         "color":"#fa8072",
         "priority":1
     },
     {
         "name":"discussion",
+		"description":"需要讨论",
         "color":"#cc317c"
     },
     {
         "name":"need info",
+		"description":"需要补充信息",
         "color":"#cc317c"
     },
     {
         "name":"help wanted",
+		"description":"需要帮助",
         "color":"#cc317c"
     },
     {
         "name":"testing",
+		"description":"测试中",
         "color":"#44AD8E"
     },
     {
         "name":"duplicate",
+		"description":"重复",
         "color":"#D2DAE1"
     },
     {
         "name":"invalid",
+		"description":"无效",
         "color":"#D2DAE1"
     },
     {
         "name":"wontfix",
+		"description":"不会修复",
         "color":"#D2DAE1"
     },
     {
         "name":"bug",
+		"description":"缺陷",
         "color":"#EE3F46"
     },
     {
         "name":"security",
+		"description":"安全问题",
         "color":"#EE3F46"
     },
     {
         "name":"feature",
+		"description":"需求功能",
         "color":"#91ca55"
     },
     {
         "name":"enhancement",
+		"description":"功能增强",
         "color":"#5EBEFF"
     },
     {
         "name":"optimization",
+		"description":"优化",
         "color":"#5EBEFF"
     },
     {
         "name":"ux",
+		"description":"用户体验",
         "color":"#FFC274"
     },
     {
         "name":"ui",
+		"description":"用户界面",
         "color":"#FFC274"
     },
     {
         "name":"compatibility",
+		"description":"兼容性",
         "color":"#000000"
     }
 ]
